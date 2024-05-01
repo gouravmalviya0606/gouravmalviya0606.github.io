@@ -19,6 +19,15 @@ body {
     }
 }
 
+.ani-l-t-r{
+  animation: mymove 2s;
+}
+
+@keyframes mymove {
+    0% {opacity: 0; margin-left: 200px;}
+    50% {opacity: 1;}
+}
+
 h1,
 h2,
 h3,
