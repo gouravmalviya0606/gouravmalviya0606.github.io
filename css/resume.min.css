@@ -197,3 +197,24 @@ a:hover {
     font-weight: 600;
 }
 
+ /* Define CSS animation */
+ @keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* .animated-section {
+    animation: slideInRight 1s ease forwards;
+    opacity: 0; 
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+} */
